@@ -37,7 +37,7 @@ export class BoardComponent implements OnInit {
 
   }
   
-  calculateWinner(): String {
+  calculateWinner(): string {
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
